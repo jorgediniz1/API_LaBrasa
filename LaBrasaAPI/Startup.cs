@@ -44,6 +44,15 @@ namespace LaBrasaAPI
             services.AddScoped<IProdutoBusiness, ProdutoBusinessImplementation>();
             services.AddScoped<IProdutoRepository, ProdutoRepositoryImplementation>();
 
+            services.AddScoped<IPedidoBusiness, PedidoBusinessImplementation>();
+            services.AddScoped<IPedidoRepository, PedidoRepositoryImplementation>();
+
+            services.AddScoped<IMesaBusiness, MesaBusinessImplementation>();
+            services.AddScoped<IMesaRepository, MesaRepositoryImplementation>();
+
+            services.AddScoped<IComandaBusiness, ComandaBusinessImplementation>();
+            services.AddScoped<IComandaRepository, ComandaRepositoryImplementation>();
+
 
 
 

@@ -1,17 +1,17 @@
 ﻿using LaBrasaAPI.Model;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace LaBrasaAPI.Business
+namespace LaBrasaAPI.Repository
 {
-    public interface IComandaBusiness
+    public interface IComandaRepository
     {
         Comanda Create(Comanda comanda);
         Comanda FindByID(int idComanda);
         Comanda Update(Comanda comanda);
         void Delete(int idComanda);
-        List<Comanda> FindAll();
-
-        
-
+        List<Comanda> FindAll();     
     }
 }

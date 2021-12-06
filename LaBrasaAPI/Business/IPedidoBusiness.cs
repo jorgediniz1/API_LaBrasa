@@ -14,7 +14,7 @@ namespace LaBrasaAPI.Business
         void Delete(int idPedido);
         List<Pedido> FindAll();
 
-        Pedido AddProduto(Produto produto);
+        
 
         
 
